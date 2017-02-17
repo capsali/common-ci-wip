@@ -1,0 +1,1 @@
+tempest.scenario.test_minimum_basic.TestMinimumBasicScenario

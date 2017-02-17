@@ -1,1 +1,2 @@
-# common-ci-wip
+# common-ci
+CI scripts shared by multiple CIs
