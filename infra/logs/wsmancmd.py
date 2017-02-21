@@ -101,7 +101,7 @@ def parse_args():
 
 
 def run_wsman_cmd(url, auth, username, password, cert_pem, cert_key_pem, cmd):
-    protocol.Protocol.DEFAULT_TIMEOUT = "PT3600S"
+    protocol.Protocol.DEFAULT_TIMEOUT = 3600
 
     if not auth:
         auth = AUTH_BASIC
